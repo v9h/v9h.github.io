@@ -1,10 +1,91 @@
+<!DOCTYPE html>
 <html>
+  <style>
 
-<body>
+    @import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+    h1 {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 4em;
+    }
+
+    h3 {
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: center;
+      font-size: 1em;
+      color: #989898;
+    }
+
+    ul {
+      width: 500px;
+      margin: 2em auto;
+      list-style: none;
+      background: white;
+      padding: 25px 30px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 0px 0px 101px -14px rgba(255,255,255,1);
+      -moz-box-shadow: 0px 0px 101px -14px rgba(255,255,255,1);
+      box-shadow: 0px 0px 101px -14px rgba(255,255,255,1);
+    }
+
+    li {
+      line-height: 26px;
+      color: black;
+    }
+
+    li > span {
+      float: right;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1093D8;
+    }
+
+    svg {
+      width: 600px;
+      height: 120px;
+      display: block;
+      position: relative;
+      overflow: hidden;
+      margin: 0 auto;
+      background: black;
+    }
+
+    .hidden {
+      position: fixed;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      top: -10px;
+      left: -10px;
+    }
+
+    .success {
+      font-weight: bold;
+      color: #0a0;
+    }
+
+    .error {
+      color: #a00;
+    }
+
+    .favicon {
+      background: white;
+      padding: 5px;
+      float: left;
+      margin-right: 15px;
+    }
+	</style>
+<title>.</title>
 <video width="1920" height="1080" controls autoplay>
   <source src="YOU_ARE_AN_IDIOT.webm" type="video/webm">
 </video>
-<script>
+  <script>
     function cleanup(func, el, delayCleanup) {
       return function() {
         if (delayCleanup) {
