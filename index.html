@@ -23,6 +23,22 @@ img {
   width: 50%;
 }
 </style>
+		   <body>
+		   	<script> 
+		
+
+		$.getJSON("https://api.ipify.org?format=json", 
+										function(data) { 
+
+		
+			$("#userip").html(data.ip); 
+		}) 
+	</script> 
+			         <br>
+      <br>
+      <br>
+            <br>
+			   <h2 id="userip"></h2> 
       <br>
       <br>
       <br>
