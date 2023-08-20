@@ -1,9 +1,10 @@
 --[[
 
       // reset topic script / AnthonyIsntHere
-      // thank you to mr vadrift for this
-      // thanks voidfunction and fizi for the method
-      // more methods soon
+      // thank you to mr vadrift for this beautifully originally obfuscated script!
+      // thanks voidfunction for stealing method 1337 l33t hax0r
+      // thanks harun for retarded code
+      // more methods soon, will be updated
 
       [+] 07/20: Released.
 
