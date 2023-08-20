@@ -7,11 +7,14 @@
       // more methods soon, will be updated
 
       [+] 07/20: Released.
+                 Readded Anthony's Anti Chat Logger (oops)
 
                                                           ]]--
 
 
 repeat task.wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/AntiChatLogger.lua", true))()
+wait()
 local chatService, players = game:GetService("Chat"), game:GetService("Players")
 
 local custom_chars = {
