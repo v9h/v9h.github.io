@@ -1,9 +1,7 @@
 --[[
-
-      // reset topic script / AnthonyIsntHere
-      // thank you to mr vadrift for this beautifully originally obfuscated script!
-      // thanks voidfunction for stealing method 1337 l33t hax0r
-      // thanks harun for retarded code
+      // thanks voidfunction for thread & the chat bypass method itself
+      // thanks AnthonyIsntHere for Reset Topic & Anti ChatLogger
+      // thanks harun for coding expertise
       // more methods soon, will be updated
 
       [+] 07/20: Released.
